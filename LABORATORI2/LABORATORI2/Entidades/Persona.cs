@@ -24,6 +24,12 @@ namespace LABORATORI2.Entidades
         {
         }
 
+        public Persona(double peso, double altura)
+        {
+            this.peso = peso;
+            this.altura = altura;
+        }
+
         public Persona(string nombre, int edad, string sexo)
         {
             this.Nombre = nombre;
